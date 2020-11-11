@@ -27,10 +27,10 @@ const App = () => {
     <div className="container">
       <Search term={term} setTerm={setTerm} />
       <div className="row mt-5">
-        <div className="col-8 ">
+        <div className=" col-12 col-md-8">
           <VideoDetail selectedVideo={selectedVideo} />
         </div>
-        <div className="col-4">
+        <div className="col-12 col-md-4">
           <VideoList
             videos={videos}
             selectedVideo={selectedVideo}

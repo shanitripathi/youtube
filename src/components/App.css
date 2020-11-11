@@ -1,6 +1,7 @@
 body {
   background-color: #191919;
   color: white;
+  overflow-x: hidden;
 }
 
 .input-div input {
@@ -39,11 +40,19 @@ h6 {
 
 .embed {
   width: 100%;
-  height: 380px;
+  height: 400px;
+  background-color: red;
 }
 
 iframe {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+@media screen and(max-width:600px) {
+  .embed {
+    height: 100px;
+    color: white;
+  }
 }
